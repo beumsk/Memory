@@ -1,5 +1,6 @@
 # Memory
-The classic memory game created with Javascript, HTML and CSS. Choose your favorite theme and play. Be as fast as possible and spare your clicks !
+Play the classic memory game with your favorite themes. Be as fast as possible and spare your clicks!
+https://codepen.io/beumsk/pen/xdoKjX
 
 TODO:
 * other themes to add
