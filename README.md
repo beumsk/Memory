@@ -1,2 +1,7 @@
 # Memory
-A memory game created with html, css and javascript. Chose between different themes. Be as fast as possible and spare your clicks !
+The classic memory game created with Javascript, HTML and CSS. Choose your favorite theme and play. Be as fast as possible and spare your clicks !
+
+TODO:
+* other themes to add
+* bigger memory choice
+* dark theme
