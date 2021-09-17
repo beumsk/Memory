@@ -36,7 +36,7 @@ header {
     font-size: 32px;
     padding: 10px;
   }
-
+  
   header h1 {
     font-weight: 400;
   }
@@ -71,8 +71,6 @@ header {
 
 .box {
   background: #6186aa;
-/*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
-  background-size: 250%;
   width: 50px;
   height: 50px;
   float: left;
@@ -86,14 +84,20 @@ header {
   }
 }
 
-.play:hover {
+.box.play:hover {
   opacity: 0.7;
   cursor: pointer;
 }
 
-img {
+.box img {
   width: 100%;
   display: block;
+  border: solid 1px transparent;
+}
+
+.box .outlined {
+  border: solid 1px #34495e;
+  background: #1abc9c;
 }
 
 /* STATUS bar */
@@ -163,11 +167,6 @@ footer p a:hover {
 
 .show {
   display: block;
-}
-
-.outlined {
-  outline: solid 2px #34495e;
-  background: #9b59b6;
 }
 
 /* PRE modal window */
