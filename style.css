@@ -36,7 +36,7 @@ header {
     font-size: 32px;
     padding: 10px;
   }
-  
+
   header h1 {
     font-weight: 400;
   }
@@ -47,12 +47,12 @@ header {
   background: white;
   width: 250px;
   height: 345px;
-/*   box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.4); */
+  /*   box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.4); */
   margin: auto;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -103,7 +103,7 @@ header {
 /* STATUS bar */
 #state {
   background: #6186aa;
-/*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
+  /*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
   background-size: 250%;
   width: 230px;
   line-height: 25px;
@@ -132,7 +132,7 @@ header {
 }
 
 #time::after {
-  content: " sec";
+  content: ' sec';
 }
 
 #score {
@@ -140,7 +140,7 @@ header {
 }
 
 #score::after {
-  content: " points";
+  content: ' points';
 }
 
 /* FOOTER */
@@ -187,16 +187,14 @@ footer p a:hover {
 #themes {
   margin: auto;
   padding: 20px;
-  width: 250px;
+  width: 300px;
   background: white;
   color: #6186aa;
-  font-size: 20px;
-  letter-spacing: 1px;
 }
 
 #themes p {
   margin-top: 10px;
-  padding: 5px 20px;
+  padding: 10px 20px;
   border: solid 1px;
   background: white;
   color: #6186aa;
@@ -206,9 +204,17 @@ footer p a:hover {
 
 #themes p:hover {
   background: #6186aa;
-/*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
+  /*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
   background-size: 250%;
   color: white;
+}
+
+#pre h2,
+#post h2 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 /* POST modal window */
@@ -233,7 +239,7 @@ footer p a:hover {
   color: #6186aa;
 }
 
-#post p:first-child, 
+#post p:first-child,
 #post #final {
   font-weight: bold;
   letter-spacing: 2px;
@@ -252,7 +258,7 @@ footer p a:hover {
 
 #post #again:hover {
   background: #6186aa;
-/*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
+  /*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
   background-size: 250%;
   color: white;
   cursor: pointer;
